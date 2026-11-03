@@ -1,0 +1,11 @@
+header nav{
+    background-color: blue;
+    display: flex;
+}
+div{
+  width: 120px;
+  height: 120px;
+}
+footer {
+    justify-content: center;
+}
