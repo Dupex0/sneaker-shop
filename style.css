@@ -3,40 +3,58 @@ header nav{
     display: flex;
     list-style: none;
     justify-content: space-around;
-    ul{
-     list-style: none;
-     justify-content:space-between;
-     align-items: center;
-     display: flex;
-     
+
     h3{
         display: flex;
 
     }
      
     } 
+    div img{
+        margin-right: 15px;
+    }
     ul img{
-     justify-content: end;
+     display: flex;
      width: 60px;
      height: 60px;
+     margin-left: 15px;
      border-radius: 100%;
     } 
-    ul li{
-      margin-right: 15px;
+ul {
+   
+    gap: 20px;
+    color: black;
+}
+    .bouton{
+    padding: 8px 16px;
+    background-color: #8005F2;
+    color: white;
+    height: auto;
+    border-radius: 6px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    border: none;
+    transition: all 0.4s
+    
     }
 
     div img{
         justify-content: start;
     }
-}
+
 h1{display: flex;
     justify-content: center;
 }
 div{display: flex;
-    width: 120px;
-    height: 120px;
+    flex-direction: column;
     align-items: center;
 }
+    ul{
+     list-style: none;
+     align-items: center;
+     display: flex;
+    }
 main{
     background-color: blue;
     
@@ -44,17 +62,26 @@ main{
         width: 248px;
         height: 248px;
     }
-    div{
-        columns: 4;
+    p.texte{
+
     }
 }
 
-
-div{
-  width: 120px;
-  height: 120px;
+section{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
 }
+
+
+
 footer {
     display:flex;
     justify-content: center;
+}
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
 }
